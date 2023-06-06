@@ -8,3 +8,9 @@ export const storeUserData =(data)=>{
 export const getUserData=()=>{
     return localStorage.getItem('idToken');
 }
+
+//Remove IDToken in Localstorage
+
+export const removeUserData=()=>{
+    localStorage.removeItem('idToken')
+}
