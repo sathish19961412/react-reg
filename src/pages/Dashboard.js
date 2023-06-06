@@ -1,6 +1,6 @@
 import {useEffect, useState } from "react"
 import { UserDetailsApi } from "../services/Api"
-import NavBar from "../components/NavBar"
+import NavBar from "../components/Navbar"
 import { logout,isAuthenticated} from "../services/Auth"
 import { useNavigate,Navigate } from "react-router-dom"
 export default function DashboardPage(){

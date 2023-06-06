@@ -4,7 +4,7 @@ import { LoginApi } from '../services/Api';
 import {storeUserData} from '../services/Storage';
 import { isAuthenticated } from '../services/Auth';
 import {Link, Navigate} from 'react-router-dom';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/Navbar';
 export default function LoginPage(){
 
     //inital State Fields False

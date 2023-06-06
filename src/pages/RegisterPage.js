@@ -3,7 +3,7 @@ import './RegisterPage.css';
 import { RegisterApi } from '../services/Api';
 import { storeUserData } from '../services/Storage';
 import { isAuthenticated } from '../services/Auth';
-import NavBar from '../components/NavBar';
+import NavBar from '../components/Navbar';
 import {Link, Navigate} from 'react-router-dom';
 
 export default function RegisterPage(){
