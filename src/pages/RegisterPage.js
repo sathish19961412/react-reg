@@ -77,7 +77,7 @@ export default function RegisterPage(){
 
     if(isAuthenticated()){
        //Redirect to the Dashboard Page
-       return <Navigate to="/dashboard" />
+       return <Navigate to="/login" />
     }
     
     return(
