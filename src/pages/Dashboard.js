@@ -33,10 +33,10 @@ export default function DashboardPage(){
     }
 
     if(!isAuthenticated()){
-
         //Redirect to the Dashboard Page
         return <Navigate to="/login" />
       }
+
     return(
         <div>
             <NavBar logoutUser={logoutUser}/>
