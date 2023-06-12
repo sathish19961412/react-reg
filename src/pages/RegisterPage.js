@@ -77,7 +77,7 @@ export default function RegisterPage(){
 
     if(isAuthenticated()){
        //Redirect to the Dashboard Page
-       return <Navigate to="/login" />
+       return <Navigate to="/dashboard" />
     }
     
     return(
@@ -86,7 +86,7 @@ export default function RegisterPage(){
             <section className="register-block">
                 <div className="container">
                     <div className="row ">
-                        <div className="col register-sec">
+                        <div className="col-md-12 register-sec">
                             <h2 className="text-center">Register Now</h2>
                             <form onSubmit={handleSubmit} className="register-form" action="" >
                             <div className="form-group">

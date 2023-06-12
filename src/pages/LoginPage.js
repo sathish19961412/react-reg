@@ -77,7 +77,7 @@ export default function LoginPage(){
             <section className="login-block">
                 <div className="container">
                     <div className="row ">
-                        <div className="col login-sec">
+                        <div className="col-md-12 login-sec">
                             <h2 className="text-center">Login Now</h2>
                             <form onSubmit={handleSubmit} className="login-form" action="">
                             <div className="form-group">
